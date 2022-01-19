@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --heading-color: #363958;
+    --highlight-color: #FABE4C;
+    --btn-background-color: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    --paragraph-color: #3E3E3E;
+    --light-gray-color: #F1F1F1;
+    --green-color: #85A019;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--heading-color);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--paragraph-color);
+}
+
+.navbar-brand{
+    width: 290px;
+}
+
+.header, .navbar{
+    background: #FFFBF0;
+}
+
+
+
+
+.navbar-nav .nav-item .nav-link{
+    color: #3C3C3C;
+    font-weight: 500;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--green-color);
+
+}
+
+.home h1{
+    font-size: 5.8em;
+}
+
+
+.home .home-img{
+    transition: .3s;
+}
+
+.home .home-img:hover{
+    transform: scale(0.9);
+}
+
+
+.hilglight{
+    color: var(--highlight-color)
+}
+
+.custom-btn{
+    background: var(--btn-background-color);
+    color: #fff;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+}
+
+.custom-btn:hover{
+    color: var(--green-color);
+    background: transparent;
+}
+
+.custom-btn span{
+    margin-right: .5em;
+}
+
+.item{
+    padding: 1em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.item:hover{
+    box-shadow: 0 .825rem .85rem rgba(0,0,0,.075) !important;
+
+}
+
+.item .item-img{
+    background: var(--light-gray-color);
+    border-radius: .8em;
+    padding: 1.5em;
+}
+
+.feature-item{
+    padding: 1em;
+    border-radius: .5em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.feature-item:hover{
+    box-shadow: 0 .825rem .85rem rgba(0,0,0,.075) !important;
+}
+
+.feature-item .feature-img{
+    width: 80px;
+    display: inline-block;
+}
+
+.feature-item .feature-content{
+    margin-left: 1em;
+}
+
+.footer{
+    background: var(--heading-color);
+}
+
+.footer h3 span{
+    color: var(--green-color);
+}
+
+.footer p a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+}
