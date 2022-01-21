@@ -2,6 +2,8 @@
 
 <img src='./screenshots/laptop-view.png'>
 
+---
+
 ## Connect With Me ☕!
 ---  
 
