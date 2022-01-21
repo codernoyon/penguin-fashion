@@ -5,7 +5,4 @@ window.onscroll = () => {
     } else {
         document.querySelector('.navbar').classList.remove('shadow-sm');
     }
-
-    // menu.classList.toggle('fa-times');
-    // nav.classList.toggle('active');
 };
